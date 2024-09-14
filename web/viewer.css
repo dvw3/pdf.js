@@ -257,6 +257,10 @@ body {
   pointer-events: none;
 }
 
+.textLayer {
+  pointer-events: none !important;
+}
+
 .pdfPresentationMode:fullscreen .textLayer span {
   cursor: none;
 }
